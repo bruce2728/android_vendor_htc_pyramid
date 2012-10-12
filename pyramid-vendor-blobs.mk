@@ -18,10 +18,7 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-        vendor/htc/pyramid/proprietary/lib/libcamera_client.so:obj/lib/libcamera_client.so \
-	vendor/htc/pyramid/proprietary/lib/libcameraservice.so:obj/lib/libcameraservice.so \
-	vendor/htc/pyramid/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -29,7 +26,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
-  vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -47,9 +43,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/pyramid/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-  vendor/htc/pyramid/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-  vendor/htc/pyramid/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-  vendor/htc/pyramid/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
   vendor/htc/pyramid/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/pyramid/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_default_video.so:system/lib/libchromatix_s5k3h1gx_default_video.so \
@@ -80,5 +73,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so
